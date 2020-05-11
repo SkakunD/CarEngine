@@ -1,0 +1,59 @@
+.startEngine {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 30px auto;
+  background-color: red;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  color: white;
+}
+
+.main {
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+body {
+  background: url(https://www.meme-arsenal.com/memes/06b1a9250e524c149eb1724f6056336e.jpg);
+  background-size: 100%;
+  margin: 0 auto;
+  width: 100%;
+  /* height: 900px; */
+}
+.gasPedal {
+  width: 200px;
+  height: 300px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 30px auto;
+  background: url(https://hqtexture.com/uploads/posts/2012-05/1336897665-261151-metall_texture_117-mb_metall_tezt-2_www.hqtexture.com.jpg);
+  background-size: cover;
+  /* transform: perspective(200px) rotate(0deg); */
+  transition: all ease 0.5s;
+  box-shadow: 2px 2px 5px #000;
+}
+.levelGas {
+  width: 250px;
+  height: 50px;
+  border: 4px solid red;
+  margin: 10px auto;
+}
+
+.rotatePedal {
+  transform: perspective(200px) rotateX(14deg);
+  transition: all ease 0.5s;
+  box-shadow: 5px 5px 10px #000;
+}
+
+.levelRange {
+  /* display: block; */
+  width: 0;
+  height: 100%;
+  background-color: green;
+  transition: all ease 2s;
+}
